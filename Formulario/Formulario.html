@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 22/23</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body style="background-color:rgba(0, 84, 87, 0.664) ;" >
+    <h1>Formulario 22/23 IES VillaBlanca</h1>
+    
+    
+    <form>
+        <fieldset>
+        <p>Nombre: <input type="text" name="nombre" size="40"
+            placeholder="Escriba su nombre"> 
+
+        </p>
+        <p>Apellidos:
+            <input type="text" name="apellidos" size="40"
+            placeholder="Escriba su apellido">
+        </p>
+        <p>Sexo:
+            <label><input type="radio" name="hm" value="h"> Hombre </label>
+            <label><input type="radio" name="hm" value="m"> Mujer </label>
+          </p>
+          <p>Comida:
+            
+            <label><Input type="radio" name="Comida" value="m"> macarrones </label>
+                <label><Input type="radio" name="Comida" value="p"> pasta</label>
+                <label><Input type="radio" name="Comida" value="h"> hamburguesa</label>
+          </p>
+          <p>Introduzca Foto 
+            <input type="file">
+          </p>
+         </fieldset>
+        <fieldset>
+        <p>Año de nacimiento: <input type="date" name="nacido"> </p>
+        <p>Edad:
+            <input type="radio" name="edad" value="menor"> Menor
+            <input type="radio" name="edad" value="adulto" required> Adulto
+        </p>
+        <p>Cursos Repetidos:
+            <input type="radio" name="boton" value="1"> Si
+            <input type="radio" name="boton" value="1"> No
+        </p>
+        
+        <label for="Nhijos">  Hijos?, indicar cuantos:
+            <select name="Hijos" id="Nhijos">
+                <Option value="0"> ... </Option>
+                <Option value="1"> uno </Option>
+                <Option value="2"> dos </Option>
+                <Option value="3"> tres </Option>
+                <Option value="4"> cuatro </Option>
+            </select>
+        </label>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+          </p>
+        </fieldset>
+        <p>Localidad:</p>
+            <p><input type="text" name="Provincia"
+                placeholder="Escriba su Provincia"> </p>
+           
+            <p><input type="text" name="Ciudad"
+            placeholder="Escriba su Ciudad"> </p>
+           <p><input type="text" name="Calle"
+            placeholder="Escriba su calle"> </p> 
+
+            <button type="submit" value="enviar"><img src="fotoblanco.png" alt="aqui va la foto"> </button>
+
+      </form>
+</body>
+</html> 
