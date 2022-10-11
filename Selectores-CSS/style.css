@@ -6,6 +6,15 @@ h1.qlq2{
     color: blueviolet;
     background-color: brown;
 }
-style{
+body{
     background-color: green;
+}
+div{
+    border: royalblue 3px solid;
+    margin: 5;
+    padding: 5;
+    
+    }
+    p h2 mark {
+        background-color: blue;
 }
