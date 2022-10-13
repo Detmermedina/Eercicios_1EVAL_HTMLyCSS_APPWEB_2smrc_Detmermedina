@@ -1,12 +1,27 @@
-h1.Titulo {
-    background-color: blueviolet;
+div.h1Titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+h1.Titulo mark { 
+
+    background-color: rgb(10, 10, 10);
     color: rgb(251, 255, 24);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large; 
+    
 }
 dt mark{
+   
     background-color: black;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 dd {
-    background-color: blueviolet;
-    color: white;
+    justify-content: center;
+    color: rgb(0, 17, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    
 }
