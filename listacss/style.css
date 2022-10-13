@@ -1,0 +1,12 @@
+h1.Titulo {
+    background-color: blueviolet;
+    color: rgb(251, 255, 24);
+}
+dt mark{
+    background-color: black;
+    color: white;
+}
+dd {
+    background-color: blueviolet;
+    color: white;
+}
