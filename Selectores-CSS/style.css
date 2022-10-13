@@ -15,6 +15,6 @@ div{
     padding: 5;
     
     }
-    p h2 mark {
-        background-color: blue;
+    h2 mark {
+        background-color: rgb(231, 231, 238);
 }
