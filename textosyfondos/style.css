@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    background-color: crimson;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+mark.hola {
+    background-color: crimson;
+}
+mark.como{
+    background-color: blueviolet;
+}
+span{
+    color: rgb(86, 255, 8);
+}
+hr{
+    height: 4px;
+    background-color: black;
+}
