@@ -1,0 +1,11 @@
+main :first-child{
+    color: red;
+}
+a:link{
+    color: yellow;
+    background-color: black;
+}
+a:visited{
+    background-color: blue;
+    color: white;
+}

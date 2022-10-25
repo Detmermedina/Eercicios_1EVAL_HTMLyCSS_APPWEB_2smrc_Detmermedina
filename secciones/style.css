@@ -1,0 +1,21 @@
+li{ 
+    list-style: none;
+    display: inline;
+    padding: 0px 0px 50px 100px;
+}
+img{
+    width: 100px;
+    padding: 0px 0px 0px 460px;
+}
+header{
+    height: 20%;
+    background-color: blueviolet;
+}
+nav{
+    height: 60%;
+    background-color: cadetblue;
+}
+footer{
+    height: 20%;
+    background-color: brown;
+}
